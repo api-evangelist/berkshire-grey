@@ -1,0 +1,97 @@
+aid: berkshire-grey
+name: Berkshire Grey
+description: >-
+  Berkshire Grey is a Bedford, Massachusetts-based AI and robotics company
+  that builds integrated pick-and-place, parcel sortation, trailer-unloading,
+  and shuttle-sortation systems for eCommerce fulfillment, retail
+  replenishment, and parcel logistics operations. Its product portfolio is
+  organized around four flagship robotic systems — Core robotic picking
+  system, Dispatch parcel sorter, Scoop trailer unloader, and Stride shuttle
+  sorter — supported by the BG Flex mobile robotic platform and a centralized
+  operating environment that orchestrates fleets of industrial-grade mobile
+  robots for induct, transport, sort, sequence, and fulfill workflows
+  including buy-online-pickup-in-store, curbside, and store replenishment.
+  The company holds 700+ awarded patents (300+ pending) and has deployed
+  solutions with Global-100 retailers and logistics service providers
+  including Walmart, Target, and FedEx, with FedEx expanding from small-parcel
+  sortation into broader AI robotic package-handling capabilities. Berkshire
+  Grey originally went public via SPAC merger with Revolution Acceleration
+  Acquisition Corp in 2021, then entered into a definitive merger agreement
+  with SoftBank Group in 2023 (approximately $375M / $1.40 per share) and is
+  now operated as a private SoftBank portfolio company. Integration with
+  warehouse-management systems is delivered through a proprietary RESTful API
+  surfaced via professional services and a 24/7 remote monitoring and
+  predictive-maintenance support model; the API, BG-OS platform, and any
+  associated SDKs are not publicly documented, and Berkshire Grey does not
+  operate a public developer portal, downloadable SDK, or open-source release
+  for its robotic operating environment.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Robotics
+  - Warehouse Automation
+  - Fulfillment Automation
+  - Pick And Place
+  - Parcel Sortation
+  - Mobile Robotics
+  - Material Handling
+  - Trailer Unloading
+  - eCommerce Fulfillment
+  - Retail Replenishment
+  - Supply Chain
+  - Logistics
+  - Artificial Intelligence
+  - SoftBank
+url: https://raw.githubusercontent.com/api-evangelist/berkshire-grey/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.berkshiregrey.com
+  - type: AboutUs
+    url: https://www.berkshiregrey.com/about-us/
+  - type: Products
+    url: https://www.berkshiregrey.com/solutions/
+  - type: Core
+    url: https://www.berkshiregrey.com/solutions/core/
+  - type: Dispatch
+    url: https://www.berkshiregrey.com/solutions/dispatch/
+  - type: Scoop
+    url: https://www.berkshiregrey.com/solutions/scoop/
+  - type: Stride
+    url: https://www.berkshiregrey.com/solutions/stride/
+  - type: BGFlex
+    url: https://www.berkshiregrey.com/resources/datasheet/bg-flex-mobile-robotic-platform/
+  - type: Industries
+    url: https://www.berkshiregrey.com/industries/
+  - type: Resources
+    url: https://www.berkshiregrey.com/resources/
+  - type: CaseStudies
+    url: https://www.berkshiregrey.com/resources/case-studies/
+  - type: Blog
+    url: https://www.berkshiregrey.com/resources/blog/
+  - type: PressReleases
+    url: https://www.berkshiregrey.com/resources/press-releases/
+  - type: Partners
+    url: https://www.berkshiregrey.com/about-us/partners/
+  - type: Careers
+    url: https://www.berkshiregrey.com/about-us/careers/
+  - type: Contact
+    url: https://www.berkshiregrey.com/contact/
+  - type: GitHub
+    url: https://github.com/berkshiregrey
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/berkshire-grey
+  - type: YouTube
+    url: https://www.youtube.com/@BerkshireGrey
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Berkshire_Grey
+  - type: Parent
+    url: https://group.softbank/en
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
