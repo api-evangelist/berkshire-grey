@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "bg": "https://www.berkshiregrey.com/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "BerkshireGrey": "schema:Organization",
+    "name": "schema:name",
+    "url": "schema:url",
+    "description": "schema:description",
+    "industry": "schema:industry",
+    "parentOrganization": "schema:parentOrganization",
+    "foundingLocation": "schema:foundingLocation",
+    "knowsAbout": "schema:knowsAbout",
+    "hasOfferCatalog": "schema:hasOfferCatalog",
+
+    "RoboticSystem": "bg:RoboticSystem",
+    "ProductLine": "bg:ProductLine",
+    "FulfillmentSystem": "bg:FulfillmentSystem",
+    "SortationSystem": "bg:SortationSystem",
+    "UnloadingSystem": "bg:UnloadingSystem",
+    "MobileRobotPlatform": "bg:MobileRobotPlatform",
+    "OperatingSystem": "bg:OperatingSystem",
+    "WMSIntegration": "bg:WMSIntegration",
+
+    "Core": {
+      "@id": "bg:Core",
+      "@type": "bg:RoboticSystem",
+      "schema:description": "AI robotic picking system for eCommerce fulfillment"
+    },
+    "Dispatch": {
+      "@id": "bg:Dispatch",
+      "@type": "bg:SortationSystem",
+      "schema:description": "High-throughput parcel sortation system"
+    },
+    "Scoop": {
+      "@id": "bg:Scoop",
+      "@type": "bg:UnloadingSystem",
+      "schema:description": "Autonomous trailer-unloading robotic system"
+    },
+    "Stride": {
+      "@id": "bg:Stride",
+      "@type": "bg:SortationSystem",
+      "schema:description": "Shuttle-based sortation for retail replenishment"
+    },
+    "BGFlex": {
+      "@id": "bg:BGFlex",
+      "@type": "bg:MobileRobotPlatform",
+      "schema:description": "Flexible autonomous mobile robot platform"
+    },
+    "BGOS": {
+      "@id": "bg:BGOS",
+      "@type": "bg:OperatingSystem",
+      "schema:description": "Centralized fleet orchestration operating environment"
+    },
+
+    "throughput": {
+      "@id": "bg:throughput",
+      "@type": "xsd:float"
+    },
+    "picksPerHour": {
+      "@id": "bg:picksPerHour",
+      "@type": "xsd:integer"
+    },
+    "skuAgnostic": {
+      "@id": "bg:skuAgnostic",
+      "@type": "xsd:boolean"
+    },
+    "warehouseManagementSystem": "bg:warehouseManagementSystem",
+    "wmsIntegration": "bg:wmsIntegration",
+    "restfulApi": "bg:restfulApi",
+    "predictiveMaintenance": "bg:predictiveMaintenance",
+    "remoteMonitoring": "bg:remoteMonitoring",
+    "fulfillmentWorkflow": "bg:fulfillmentWorkflow",
+    "sortZone": "bg:sortZone",
+    "inductPoint": "bg:inductPoint",
+    "orderSequencing": "bg:orderSequencing",
+    "bopis": {
+      "@id": "bg:bopis",
+      "schema:name": "Buy Online Pickup In Store",
+      "@type": "bg:FulfillmentWorkflow"
+    },
+    "curbsidePickup": "bg:curbsidePickup",
+    "storeReplenishment": "bg:storeReplenishment",
+    "ecommerceFulfillment": "bg:ecommerceFulfillment",
+    "parcelLogistics": "bg:parcelLogistics"
+  }
+}

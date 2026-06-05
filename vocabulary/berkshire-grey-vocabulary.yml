@@ -1,0 +1,141 @@
+vocabulary:
+  name: Berkshire Grey Industrial Robotics Vocabulary
+  description: >-
+    Key terms and concepts from Berkshire Grey's AI-powered robotic fulfillment
+    and warehouse automation platform, covering robotic systems, operating
+    environments, and logistics workflows.
+  version: "1.0.0"
+  terms:
+
+    - term: BG-OS
+      definition: >-
+        Berkshire Grey Operating System — the centralized software platform that
+        orchestrates fleets of industrial-grade mobile robots across induct,
+        transport, sort, sequence, and fulfillment workflows within a warehouse
+        or distribution center.
+      tags:
+        - platform
+        - software
+        - orchestration
+
+    - term: Core
+      definition: >-
+        Berkshire Grey's flagship robotic picking system that uses AI vision and
+        manipulation to autonomously identify, grasp, and place items of varying
+        sizes and shapes in eCommerce fulfillment operations.
+      tags:
+        - robotic-picking
+        - product
+        - ai
+
+    - term: Dispatch
+      definition: >-
+        Berkshire Grey's high-throughput parcel sortation system that automates
+        the classification and routing of parcels by destination, carrier, or
+        sort zone within logistics and fulfillment facilities.
+      tags:
+        - parcel-sortation
+        - product
+        - logistics
+
+    - term: Scoop
+      definition: >-
+        Berkshire Grey's trailer-unloading robotic system that autonomously
+        unloads mixed-SKU packages from trailers without human intervention,
+        improving throughput and reducing labor costs at inbound dock operations.
+      tags:
+        - trailer-unloading
+        - product
+        - inbound
+
+    - term: Stride
+      definition: >-
+        Berkshire Grey's shuttle-based sortation system designed for
+        high-volume sequencing and sortation of items across multiple destinations,
+        supporting retail replenishment and store-ready fulfillment workflows.
+      tags:
+        - shuttle-sortation
+        - product
+        - retail-replenishment
+
+    - term: BG Flex
+      definition: >-
+        A mobile robotic platform from Berkshire Grey that provides flexible,
+        reconfigurable autonomous mobile robot (AMR) capabilities for transport,
+        induct, and inter-process movements within a fulfillment environment.
+      tags:
+        - mobile-robotics
+        - amr
+        - product
+
+    - term: Pick-and-Place
+      definition: >-
+        The robotic task of identifying an item in an unstructured bin or
+        conveyor, grasping it with an end-effector, and precisely placing it
+        into a target container, tote, or bag; a core capability of the
+        Core robotic picking system.
+      tags:
+        - robotics
+        - manipulation
+        - fulfillment
+
+    - term: WMS Integration
+      definition: >-
+        The RESTful API-based interface between Berkshire Grey's BG-OS platform
+        and third-party Warehouse Management Systems (WMS), enabling bi-directional
+        exchange of order, inventory, and task data to coordinate robotic and
+        human workflows.
+      tags:
+        - api
+        - integration
+        - wms
+
+    - term: BOPIS
+      definition: >-
+        Buy Online, Pickup In Store — a fulfillment workflow where an online
+        order is picked and staged in a retail location for customer collection;
+        supported by Berkshire Grey's robotic systems for rapid order assembly.
+      tags:
+        - fulfillment
+        - retail
+        - ecommerce
+
+    - term: Predictive Maintenance
+      definition: >-
+        A support capability within Berkshire Grey's 24/7 remote monitoring
+        service that uses sensor telemetry and AI analytics to anticipate
+        component failures in robotic systems before they cause downtime.
+      tags:
+        - maintenance
+        - monitoring
+        - ai
+
+    - term: SKU Agnostic
+      definition: >-
+        The ability of a robotic picking or sortation system to handle items
+        across a very wide range of shapes, sizes, weights, and packaging types
+        without requiring item-specific fixturing or programming.
+      tags:
+        - robotics
+        - flexibility
+        - fulfillment
+
+    - term: Induct
+      definition: >-
+        The process of introducing items or parcels into an automated sortation
+        or picking system, typically via conveyor, manual placement, or an
+        upstream robotic unloading system such as Scoop.
+      tags:
+        - operations
+        - workflow
+        - logistics
+
+    - term: Throughput
+      definition: >-
+        A key performance metric for robotic fulfillment systems expressing the
+        number of units (items, parcels, or orders) processed per unit of time,
+        typically measured in picks-per-hour or parcels-per-hour.
+      tags:
+        - metrics
+        - performance
+        - kpi
