@@ -50,6 +50,10 @@ modified: '2026-05-24'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: TrustCenter
+    url: security/berkshire-grey-trust-center.yml
+  - type: DomainSecurity
+    url: security/berkshire-grey-domain-security.yml
   - type: Website
     url: https://www.berkshiregrey.com
   - type: AboutUs
