@@ -26,9 +26,20 @@ description: >-
   operate a public developer portal, downloadable SDK, or open-source release
   for its robotic operating environment.
 type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 position: Provider
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/berkshire-grey.png
 tags:
   - Robotics
   - Warehouse Automation
